@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+   
+
+}
+body div{
+    background-color: #a5c05b;
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+.div1{
+    left: 0;
+    top: 0;
+}
+.div2{  
+
+top: 0;
+left: 0;
+right: 0;
+margin: auto;
+
+}
+.div3{
+ right: 0;
+ top: 0;
+
+}
+.div4{
+    /* left: 0; */
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.div5{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.div6{
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.div7{
+    left: 0;
+    bottom: 0;
+}
+.div8{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.div9{
+    right: 0;
+    bottom: 0;
+
+}

@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .box-1 {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 12%;
+  }
+  .box-2 {
+    width: 81px;
+    height: 60px;
+    background-color: red;
+    position: relative;
+    border-radius: 80%;
+    top: 17%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+  .div3 {
+    width: 5px;
+    height: 250px;
+    background-color: rgb(124, 29, 6);
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .div4 {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(124, 29, 6);
+    margin-top: 82%;
+    margin-left: 78%;
+
+   
+  }

@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.green {
+  top: 25vh;
+  width: 500px;
+  height: 300px;
+  background-color: green;
+  position: relative;
+}
+
+.red {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 2s, height 2s, background-color 2s;
+}
+.red:hover {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(255, 230, 0);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/Bangladesh_\(1971-1972\).svg);
+  background-size: 150px, 140px;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+}
+p {
+  position: absolute;
+  bottom: -4%;
+  left: 31vh;
+  color: rgb(255, 0, 0);
+  opacity: 0.5;
+}
