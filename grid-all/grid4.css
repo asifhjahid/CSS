@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .container > div:nth-child(1n) {
+    background-color: #965465;
+  }
+  .container > div:nth-child(2n) {
+    background-color: #6b44d8;
+  }
+  .container > div:nth-child(3n) {
+    background-color: #95cfc0;
+  }
+  .container > div:nth-child(4n) {
+    background-color: #d0df51;
+  }
+
+  .container{
+      display: grid;
+      height: 100vh;
+      grid-template-columns: repeat(5, 80px);
+      grid-template-rows: repeat(2, 80px);
+      justify-content: center;
+      align-content: center;
+     
+  }
