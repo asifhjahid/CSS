@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  text-align: center;
+}
+.outer {
+  background-color: rgb(81, 137, 156);
+  margin: 10px;
+}
+.inner {
+  background-color: lightcoral;
+  transform: scale(0.6) translateX(10px) rotate(30deg);
+}
