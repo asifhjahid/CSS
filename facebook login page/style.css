@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(240, 242, 245);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  flex-basis: 51%;
+  height: 90vh;
+  position: relative;
+}
+.left-side img {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 22%;
+}
+.left-side p {
+  font-size: 28px;
+  line-height: 28px;
+  position: absolute;
+  top: 54%;
+  left: 22.5%;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 48%;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+  
+}
+.right-side .right-container{
+    position: absolute;
+    top: 24%;
+    right: 15%;
+}
+.right-side form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px lightgrey, 0 7px 14px lightgrey;
+  border-radius: 10px;
+}
+.right-side input {
+  width: 90%;
+  padding: 15px 16px;
+  font-size: 17px;
+  margin: 8px 0 7px 18px;
+  outline: none;
+  border: 0.5px solid #dbdada;
+  border-radius: 5px;
+}
+.right-side input:focus{
+  border-color:  #1877f2;
+}
+.right-side input::placeholder{
+  color: #a1a1a1;
+}
+.right-side input:focus::placeholder{
+  color: #a1a1a1;
+  opacity: .6;
+}
+.right-side .log-in {
+  width: 90%;
+  padding: 15px 16px;
+  background-color: #1877f2;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 8px 0 7px 18px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.right-side .log-in:hover {
+  background-color: #186fe2;
+}
+.right-side .forgot-password {
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin: 8px 0 18px 0;
+}
+.right-side .forgot-password:hover{
+  text-decoration: underline;
+}
+.right-side hr{
+  width: 90%;
+  text-align: center;
+  margin: 0 20px;
+  opacity: .4;
+}
+.right-side .create-account{
+  text-decoration: none;
+  width: 50%;
+  padding: 15px 16px;
+  background-color: #42b72a;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 35px;
+  border-radius: 6px;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+  
+}
+.right-side .create-account:hover{
+  background-color: #36a420;
+  border-color: #36a420;
+}
+.right-side .create-page p{
+  margin-top: 28px;
+  text-align: center;
+  font-size: 14px;
+  color: #1c1e21;
+}
+.right-side .create-page p span{
+    font-weight: 600;
+}
+.right-side .create-page p span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
