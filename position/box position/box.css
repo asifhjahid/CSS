@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+     position: relative;
+} 
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    margin-right:10px ;
+}
+.box-4{
+    /* position: relative; */
+    position: absolute;
+    /* left: 210px; */
+    top: 40px;
+    z-index: 2;
+}
+.box-5{
+    z-index: 3;
+}
